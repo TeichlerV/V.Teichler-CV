@@ -76,6 +76,7 @@ p {
 
 .cards {
   display: flex;
+  flex: 1;
 }
 h4 {
   text-align: center;
