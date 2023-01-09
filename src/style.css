@@ -153,6 +153,7 @@ a {
 }
 .hobby {
   line-height: 40px;
+  list-style: none;
 }
 .arrow {
   font-size: 30px;
