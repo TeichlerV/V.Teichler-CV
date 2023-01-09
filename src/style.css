@@ -1,5 +1,7 @@
 :root {
-  --main-text-color: #b368ab;
+  --main-color: #794174;
+  --secondary-color: #b368ab;
+  --box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 body {
   background: white;
@@ -9,7 +11,7 @@ img {
   margin: 0 auto;
   border-radius: 40px;
   width: 90px;
-  height: 95px;
+  height: 98px;
   margin-top: 20px;
 }
 h1,
@@ -25,33 +27,51 @@ h3 {
   opacity: 0.5;
   color: #5f3159;
 }
-.contact {
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  border: solid #5f3159;
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contact-me,
+.about-me,
+.homepage {
+  border: solid 2px #4e2849;
   border-radius: 10px;
   padding: 8px;
-  background-color: #f47fe9;
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+  padding: 10px;
 }
-.contact-button {
+
+.contact-button,
+.about-button,
+.homepage-button {
   text-decoration: none;
-  color: #5f3159;
+  color: #ffff;
+}
+.contact-button:hover,
+.about-button:hover,
+.homepage-button:hover {
+  color: #4e2849;
+  transition: all 200ms linear/ease-in-out;
 }
 p {
-  color: var(--main-text-color);
+  color: var(--main-color);
 }
 
 .education,
 .courses,
-.work {
+.work,
+.characteristics,
+.hobbies {
   border-radius: 4px;
-  border: solid var(--main-text-color);
+  border: solid var(--main-color);
   margin: 20px;
   padding: 20px;
   line-height: 1, 5;
   flex: 1;
-  color: var(--main-text-color);
+  color: var(--main-color);
 }
 
 .cards {
@@ -85,15 +105,15 @@ h4 {
   border-radius: 30px;
   margin-top: 5px;
   padding: 5px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--box-shadow);
 }
 a {
   text-decoration: none;
 }
 .project {
-  background-color: var(--main-text-color);
+  background-color: var(--secondary-color);
   color: white;
-  border-color: var(--main-text-color);
+  border-color: var(--secondary-color);
 }
 .project a {
   color: white;
@@ -106,10 +126,10 @@ a {
 }
 .certificate {
   background-color: white;
-  border-color: var(--main-text-color);
+  border-color: var(--secondary-color);
 }
 .certificate a {
-  color: var(--main-text-color);
+  color: var(--secondary-color);
 }
 .certificate a:hover {
   border-color: #5f3159;
@@ -117,4 +137,28 @@ a {
 }
 .contact-info {
   text-align: center;
+  margin-bottom: 20px;
+}
+.contact {
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+.email a,
+.phone,
+.linkedin a {
+  color: var(--main-color);
+}
+.linkedin a:hover {
+  color: #5f3159;
+}
+.hobby {
+  line-height: 40px;
+}
+.arrow {
+  font-size: 30px;
+  border: solid 1px var(--main-color);
+}
+.to-top {
+  display: flex;
+  justify-content: end;
 }
