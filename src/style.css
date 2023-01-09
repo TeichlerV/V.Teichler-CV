@@ -1,0 +1,120 @@
+:root {
+  --main-text-color: #b368ab;
+}
+body {
+  background: white;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 40px;
+  width: 90px;
+  height: 95px;
+  margin-top: 20px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1,
+h2 {
+  color: #5f3159;
+}
+h3 {
+  opacity: 0.5;
+  color: #5f3159;
+}
+.contact {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: solid #5f3159;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: #f47fe9;
+}
+.contact-button {
+  text-decoration: none;
+  color: #5f3159;
+}
+p {
+  color: var(--main-text-color);
+}
+
+.education,
+.courses,
+.work {
+  border-radius: 4px;
+  border: solid var(--main-text-color);
+  margin: 20px;
+  padding: 20px;
+  line-height: 1, 5;
+  flex: 1;
+  color: var(--main-text-color);
+}
+
+.cards {
+  display: flex;
+}
+h4 {
+  text-align: center;
+}
+.name-school,
+.course-name,
+.company {
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.degree,
+.content,
+.job-description {
+  font-size: 16px;
+}
+.years {
+  font-size: 12px;
+}
+.city {
+  margin-top: 8px;
+}
+.project,
+.certificate {
+  margin: 10px;
+  border: solid 1px;
+  border-radius: 30px;
+  margin-top: 5px;
+  padding: 5px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+a {
+  text-decoration: none;
+}
+.project {
+  background-color: var(--main-text-color);
+  color: white;
+  border-color: var(--main-text-color);
+}
+.project a {
+  color: white;
+}
+.project:hover {
+  border-color: #5f3159;
+}
+.project a:hover {
+  color: #5f3159;
+}
+.certificate {
+  background-color: white;
+  border-color: var(--main-text-color);
+}
+.certificate a {
+  color: var(--main-text-color);
+}
+.certificate a:hover {
+  border-color: #5f3159;
+  color: #5f3159;
+}
+.contact-info {
+  text-align: center;
+}
