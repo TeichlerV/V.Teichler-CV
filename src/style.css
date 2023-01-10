@@ -5,6 +5,7 @@
 }
 body {
   background: white;
+  font-family: "Montserrat", sans-serif;
 }
 img {
   display: block;
@@ -12,7 +13,7 @@ img {
   border-radius: 40px;
   width: 90px;
   height: 98px;
-  margin-top: 20px;
+  margin-top: 8px;
 }
 h1,
 h2,
@@ -26,11 +27,13 @@ h2 {
 h3 {
   opacity: 0.5;
   color: #5f3159;
+  font-size: 24px;
 }
 .buttons {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 18px;
 }
 .contact-me a,
 .about-me a,
@@ -55,10 +58,6 @@ h3 {
 .resume-button:hover {
   color: #4e2849;
   transition: all 200ms linear/ease-in-out;
-}
-
-p {
-  color: var(--main-color);
 }
 
 .education,
@@ -105,7 +104,7 @@ h4 {
   margin: 10px;
   border: solid 1px;
   border-radius: 30px;
-  margin-top: 5px;
+
   padding: 5px;
   box-shadow: var(--box-shadow);
 }
