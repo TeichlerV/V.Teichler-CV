@@ -59,7 +59,13 @@ h3 {
   color: #4e2849;
   transition: all 200ms linear/ease-in-out;
 }
-
+.education,
+.courses,
+.work,
+.characteristics,
+.hobbies {
+  background-color: #fcf1f0;
+}
 .education,
 .courses,
 .work,
